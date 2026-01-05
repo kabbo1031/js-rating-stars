@@ -1,0 +1,20 @@
+body{
+  background:#020617;
+  font-family:Arial;
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  color:white;
+}
+
+.rating span{
+  font-size:32px;
+  cursor:pointer;
+  color:#475569;
+}
+
+.rating span.active{
+  color:#facc15;
+}
